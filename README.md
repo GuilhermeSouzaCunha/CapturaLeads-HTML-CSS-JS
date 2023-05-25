@@ -2,7 +2,7 @@
 <h1 align="center">Site de captura de leads | HTML/CSS & Javascript</h1>
 
 <!-- ---------------------------------- Status ---------------------------------- -->
-<h4 align="center">🚧  Projeto Em construção...  🚧</h4>
+<!-- <h4 align="center">🚧  Projeto Em construção...  🚧</h4> -->
 
 <!-- ---------------------------------- Sumario ---------------------------------- -->
 <h2 align="center">Sumário</h2>
