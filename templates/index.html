@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <script src="../static/script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <nav class="nav"><p style="color:rgb(51, 111, 102)">Quero</p><p style="color:white">Planilha</p></nav>
+    <article class="article">
+           <section class="sectionEsquerda">
+            <h1>Planilha | Fluxo de caixa</h1>
+            <iframe width="700" height="400" src="https://www.youtube.com/embed/MF_OvAjhI4c" title="Planilha de FLUXO DE CAIXA Simples e Grátis para Controle financeiro Diário | Download" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h2>Sobre a Planilha</h2>
+            <ul>
+                <li><b>Organização financeira:</b></li>
+                <li><p>Permite registrar e acompanhar todas as transações financeiras, incluindo receitas e despesas, garantindo um controle completo do fluxo de caixa.</p></li>
+                <br><li><b>Controle efetivo:</b></li>
+                <li><p>Ajuda a manter as finanças do negócio organizadas, facilitando a identificação de cada transação e a categorização correta das receitas e despesas.</p></li>
+                <br><li><b>Tomada de decisões:</b></li>
+                <li><p>Fornece informações precisas e atualizadas sobre a situação financeira do negócio, permitindo tomar decisões estratégicas com base em dados concretos.</p></li>
+                <br><li><b>Identificação de tendências:</b></li>
+                <li><p>Ao analisar os dados registrados na planilha, é possível identificar padrões de comportamento financeiro, como períodos de alta ou baixa nas receitas, auxiliando no planejamento futuro.</p></li>
+            </ul>
+        </section>
+    
+        <section class="sectionDireita">
+            <form name="myForm" onsubmit="return validandoForm()" method="post">
+                <label for="fname">Nome*</label>
+                <input type="text" id="fname" name="fname">
+                <label for="femail">E-mail*</label>
+                <input type="email" id="femail" name="femail">
+                <label for="fc1">Você possui empresa?*</label>
+                <select name="empresa">
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select>
+                <label for="fc2">Qual o setor da sua empresa?*</label>
+                <select name="setorEmpresa">
+                    <option value="tecnologia">Tecnologia</option>
+                    <option value="Financeiro">Financeiro</option>
+                    <option value="Comercial">Comercial</option>
+                </select>
+                <label for="fc3">Quantos anos tem sua empresa?*</label>
+                <select name="idadeEmpresa">
+                    <option value="menos1">Menos de um ano</option>
+                    <option value="mais1">Mais de um ano</option>
+                    <option value="menos3">Menos de três anos</option>
+                    <option value="mais3">Mais de três anos</option>
+                    <option value="mais5">Mais de cinco anos</option>
+                </select>
+                <button type="submit">Receber</button>
+
+            </form>
+        </section>
+    </article>
+
+</body>
+</html>
